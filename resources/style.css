@@ -1,10 +1,140 @@
+/*Universal Styles */
+
 body {
   background-color: #fff;
   font-family: 'Open Sans', sans-serif;
   /*font-family: 'Monoton', cursive;*/
-  font-size: 16px;
+  font-size: 14px;
 }
+
 h1 {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;/*turqiouse*/
+}
+
+h2{
+  font-size: 1.3rem;
+  font-weight:bold;
+}
+
+/* Bootstrap Overrides */
+
+
+
+/*Slick Overrides*/
+
+
+/* Navigation */
+.navbar-default .navbar-nav > .active > a{
+  color:#399bd1;/*turquiose*/
+}
+
+.navbar-nav li{
+  font-size: 1.1rem;
+}
+
+.navbar-default .navbar-nav > .active > a:hover
+
+@media only screen and (max-width:576px){
+  .navbar-header img{
+    display:none;
+  }
+}
+
+/* Jumbotron */
+.jumbotron{
+  padding-top:10rem;
+  height:44rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  color:white;
+  /*  offset-x | offset-y | blur-radius | color */
+  text-shadow: -1px -1px 0 #000,
+  1px 1px 0 #000,
+  -1px -1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.jumbotron-bike{
+  background-image: url("./images/jumbotron-bike.jpg");
+}
+
+.jumbotron h1{
+  font-family: "Monoton";
+  font-size: 7.1rem;
+}
+
+.jumbotron p{
+  font-size: 1.25rem;
+  width:51.3rem;
+  margin:0 auto;
+  padding-bottom:2.8rem;
+}
+
+/*must fix this button selector problem*/
+
+a .btn.btn-primary.btn-large{
+  background-color: #399bd1;
+  box-shadow:0 0 3px rgba(0,0,0,0.5);
+  width:11.4rem;
+  padding:1.3rem 0;
+}
+
+a .btn .btn-primary .btn-large:hover{
+  box-shadow: 0 0 12 rgba(0,0,0,0.5);
+}
+
+a .btn .btn-primary .btn-large:active{
+  box-shadow:0 0 0 rgba(0,0,0,0.5);
+}
+
+/*fix the above button problem */
+@media only screen and (max-width:576px){
+  .jumbotron h1{
+    font-size: 5.7rem;
+  }
+}
+
+/* Project img container */
+
+
+/* Featured Project */
+.featured-project{
+  padding-top:2.85rem;
+  /*issue creating a padding space here --bottom: 20px;*/
+}
+
+.catagories{
+  color: #399bd1;/*turqiouse*/
+}
+
+.catagories > ul{
+  line-height: 1.4;
+  color: #000;/*RGBA (0,0,0,0.7)*/
+}
+
+/* Projects Section */
+.projects{
+  padding-bottom: 5.85rem;
+}
+
+/* Footer */
+footer{
+  height:20.8rem;
+  padding: 5.2rem 0;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+footer p{
+  width: 42rem;
+  margin: 0 auto;
+  padding:1.4rem 0;
+}
+
+footer h2{
+  font-weight: bold;
+  font-size: 2.5rem;
 }
