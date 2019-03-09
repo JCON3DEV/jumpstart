@@ -22,9 +22,14 @@
     crossorigin="anonymous">
 
     <!-- Slick stylesheet -->
-    <link rel="stylesheet" href="./resources/slick/slick.css">
-    <link rel="stylesheet" href="./resources/slick/slick-theme.scss">
-    <!-- also added slick theme above just in case -->
+    <!--<link rel="stylesheet" href="./resources/slick/slick.css">-->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    rel="stylesheet"
+    integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI="
+    crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./resources/slick/slick-theme.scss"> -->
+    <!-- cannot add slick theme above as it is not a css file -->
 
     <!-- JQuery CDN stylesheet -->
     <link src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -57,34 +62,29 @@
           <h1>Get Going&#46;</h1>
           <p>Jumpstart your startup with some crowdsourced seed money, or
             support one of our 300,000,000+ creators and get rewards.</p>
-          <div class="btn-wrapper">
-            <a class="btn btn-primary btn-large" href="#">Jump in</a>
-          </div>
       </div><!-- end of jumbotron background-bike -->
+
       <div class="jumbotron jumbotron-beer">
           <h1>Get Thinking&#46;</h1>
           <p>Meet like-minded individuals who will help fuel your creative
             juices.</p>
-          <div class="btn-wrapper">
-            <a class="btn btn-primary btn-large" href="#">Jump in</a>
-          </div>
       </div><!-- end of jumbotron background-beer -->
+
       <div class="jumbotron jumbotron-duffel">
           <h1>Get Started&#46;</h1>
           <p>What are you waiting for? Today's the day for your next big
             idea.</p>
-          <div class="btn-wrapper">
-            <a class="btn btn-primary btn-large" href="#">Jump in</a>
-          </div>
       </div><!-- end of jumbotron background-duffel -->
+
       <div class="jumbotron jumbotron-flowers">
           <h1>Get Creating&#46;</h1>
           <p>Stop overthinking projects and begin putting them out into the
             world.</p>
-          <div class="btn-wrapper">
-            <a class="btn btn-primary btn-large" href="#">Jump in</a>
-          </div>
       </div><!-- end of jumbotron background-flowers -->
+
+      <div class="btn-wrapper">
+        <a class="btn btn-primary btn-large" href="#">Jump in</a>
+      </div>
     </div>
 
     <main>
@@ -210,15 +210,19 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
           integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
           crossorigin="anonymous"></script>
-          
+
     <!-- latest slick script -->
-    <script type="text/javascript" src="./resources/slick/slick.min.js"></script>
+    <!--<script type="text/javascript" src="./resources/slick/slick.min.js"></script>-->
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    </script>
 
     <!-- complete bootstrap javascript cdn -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-    <script type="text/javascript" href="./resources/js/main.js"></script>
+    <!-- jsscript tag is apparently unnessecary here -->
+    <!-- <script type="text/javascript" href="./resources/js/main.js"></script>-->
 
     <!-- latest bootstrap compiled javascript-->
     <script
