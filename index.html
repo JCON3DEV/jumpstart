@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,
     shrink-to-fit=no">
     <title>Jumpstart</title>
+
     <!-- Googlefonts -->
     <link
     href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700"
     rel="stylesheet">
+
     <!-- Stylesheets-->
     <link rel="stylesheet" href="./resources/reset.css" type="text/css">
 
@@ -18,34 +20,36 @@
     rel="stylesheet"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous">
+
     <!-- Slick stylesheet -->
     <link rel="stylesheet" href="./resources/slick/slick.css">
+
     <!-- JQuery CDN stylesheet -->
     <link src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/
     X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous">
+
     <!-- personal CSS stylesheet -->
     <link rel="stylesheet" href="./resources/style.css" type="text/css">
     <link rel="icon" href="./resources/favicon.png" type="image/x-icon">
-
   </head>
-
   <body>
 
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Explore</a></li>
-              <li><a href="#">Start a Project</a></li>
-              <li><a href="#">About Us</a></li>
-            </ul>
-            <img class="navbar-brand navbar-right" src="./resources/images/logo.png"
-            alt="jumpstart logo">
-        </div>
-      </nav>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <!-- <div class="container-fluid"> -->
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Explore</a></li>
+            <li><a href="#">Start a Project</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+          <img class="navbar-brand navbar-right" src="./resources/images/logo.png"
+          alt="jumpstart logo">
+      <!-- </div> -->
+    </nav>
 
-
+    <!-- Jumbotron -->
     <div class="carousel">
       <div class="jumbotron jumbotron-bike">
         <!-- <div class="container-fluid">-->
@@ -62,17 +66,21 @@
     <main>
       <!--  Start of Featured Project section -->
       <section class="container featured-project">
+
         <div class="row">
           <h1 class="col-xs-12">Featured Project</h1>
         </div>
+
         <div class="row">
-          <div>
-            <a href="#"><img class="col-xs-12 col-md-6 col-lg-8" src="./resources/images/featured-project.png"
-            alt="A rural house with a mountain backdrop"></a>
+          <div class="col-xs-12 col-md-6 col-lg-6">
+            <div class="image-container">
+              <a href="#"><img src="./resources/images/featured-project.png"
+              alt="A rural house with a mountain backdrop"></a>
+            </div>
           </div>
 
 
-          <div class="col-xs-6 col-md-3 col-lg-2">
+          <div class="col-xs-6 col-md-3 col-lg-3">
             <h2>DeFrost: A Documentary</h2>
             <p>by Leo De Firenze</p>
             <p>DeFrost is a documentary about growing up in a little red house
@@ -82,7 +90,7 @@
               from a freezing valley in Northern Italy through beautiful
               cinematography and narration.</p>
           </div>
-          <div class="col-xs-6 col-md-3 col-lg-2">
+          <div class="col-xs-6 col-md-3 col-lg-3">
             <h2 class="catagories">Product Categories</h2>
             <ul>
               <li>Art</li>
@@ -161,7 +169,7 @@
 
     <footer>
       <div class="container">
-        <h2>Having trouble thinking of an idea?</h2>
+        <h2><strong>Having trouble thinking of an idea?</strong></h2>
         <p>Inventors' block strikes at the worst times. But that's all
           changed with Jumpstart's Good Idea Generator Lite (GIGLi).</p>
         <a href="#" class="btn btn-primary btn-lg" role="button">Learn more</a>

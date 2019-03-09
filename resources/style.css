@@ -5,6 +5,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   /*font-family: 'Monoton', cursive;*/
   font-size: 14px;
+  line-height: 1.4;
 }
 
 h1 {
@@ -18,26 +19,46 @@ h2{
   font-weight:bold;
 }
 
+img{
+  width:100%;
+}
+.navbar-brand{
+  width:auto;
+}
+
 /* Bootstrap Overrides */
 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover{
+  color:#399bd1;/*turquiose*/
+}
 
+.btn-primary{
+  background-color:#399bd1;/*turqiouse*/
+  box-shadow:0 0 3px rgba(0,0,0,0.5);
+  width:11.4rem;
+  padding:1.3rem 0;
+}
+
+.btn-primary:hover{
+  box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+
+.btn-primary:active{
+  box-shadow:0 0 0 rgba(0,0,0,0.5);
+}
 
 /*Slick Overrides*/
 
 
 /* Navigation */
-.navbar-default .navbar-nav > .active > a{
-  color:#399bd1;/*turquiose*/
-}
 
 .navbar-nav li{
   font-size: 1.1rem;
 }
 
-.navbar-default .navbar-nav > .active > a:hover
-
 @media only screen and (max-width:576px){
-  .navbar-header img{
+  .navbar-default img{
     display:none;
   }
 }
@@ -65,6 +86,7 @@ h2{
 .jumbotron h1{
   font-family: "Monoton";
   font-size: 7.1rem;
+  color:#fff;/*white*/
 }
 
 .jumbotron p{
@@ -74,32 +96,28 @@ h2{
   padding-bottom:2.8rem;
 }
 
-/*must fix this button selector problem*/
-
-a .btn.btn-primary.btn-large{
-  background-color: #399bd1;
-  box-shadow:0 0 3px rgba(0,0,0,0.5);
-  width:11.4rem;
-  padding:1.3rem 0;
-}
-
-a .btn .btn-primary .btn-large:hover{
-  box-shadow: 0 0 12 rgba(0,0,0,0.5);
-}
-
-a .btn .btn-primary .btn-large:active{
-  box-shadow:0 0 0 rgba(0,0,0,0.5);
-}
-
-/*fix the above button problem */
-@media only screen and (max-width:576px){
+@media only screen and (max-width:767px){
   .jumbotron h1{
     font-size: 5.7rem;
+  }
+  .jumbotron p{
+    width:auto;
+  }
+}
+
+@media only screen and (max-width:575px){
+  .jumbotron h1{
+    font-size: 4.3rem;
+  }
+  .jumbotron p{
+    width:auto;
   }
 }
 
 /* Project img container */
-
+.image-container{
+  opacity:0.6;
+}
 
 /* Featured Project */
 .featured-project{
@@ -132,6 +150,7 @@ footer p{
   width: 42rem;
   margin: 0 auto;
   padding:1.4rem 0;
+  width:auto;
 }
 
 footer h2{
